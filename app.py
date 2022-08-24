@@ -22,13 +22,13 @@ client = Client()
 
 def get_sent_messages():
     # TODO: Make this return a collection of messages that were sent from the number
-    messages = []
+    messages = client.messages.list(from_=TWILIO_PHONE_NUMBER)
     return messages
 
 def send_message(to, body):
     # TODO: Send the text message
     client.messages.create(
-    to=to,
+    to=TWILIO_UDAY,
     body=body,
     from_=TWILIO_PHONE_NUMBER
     )
