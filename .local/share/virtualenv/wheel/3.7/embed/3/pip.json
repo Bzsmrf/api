@@ -1,0 +1,13 @@
+{
+  "completed": "2022-08-24T16:18:09.645152Z",
+  "periodic": true,
+  "started": "2022-08-24T16:17:23.656786Z",
+  "versions": [
+    {
+      "filename": "pip-22.2.2-py3-none-any.whl",
+      "found_date": "2022-08-24T16:17:29.050352Z",
+      "release_date": "2022-08-03T18:56:21.000000Z",
+      "source": "periodic"
+    }
+  ]
+}
