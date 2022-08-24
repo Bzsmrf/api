@@ -28,7 +28,7 @@ def get_sent_messages():
 def send_message(to, body):
     # TODO: Send the text message
     client.messages.create(
-    to=TWILIO_UDAY,
+    to=Twilio_uday,
     body=body,
     from_=TWILIO_PHONE_NUMBER
     )
